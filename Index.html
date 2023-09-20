@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: azure;
+            
+        }
+        .a1{
+            background-color: white;
+            color: black;
+        }
+        .places{
+            padding: 2px;
+            display: flex;
+            background-color: whitesmoke;
+        }
+        .place{
+            padding: 5px;
+            
+        }
+        button:hover{
+            background: linear-gradient(to bottom right, grey,white,lightgrey);
+        }
+        .books{
+            padding: 2px;
+            display: flex;
+            background-color: whitesmoke;
+        }
+        .book{
+            padding: 5px;
+        }
+        .movies{
+            padding: 2px;
+            display: flex;
+            background-color: whitesmoke;
+        }
+        .mov{
+            padding: 5px;
+        }
+        button{
+            padding: 5px;
+            border-color: white;
+        }
+        .b1{
+            margin-left: 5px;
+        }
+        img:hover{
+            box-shadow: 2px 2px 5px  blue;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="a1"><i>My Favorites:</i></h1>
+    <br><br>
+    <hr>
+    <button onclick="Showall()" class="b1">Show all</button>
+    <button onclick="Favplace()">Favorite Places</button>
+    <button onclick="Favbook()">Favorite Books</button>
+    <button onclick="Favmov()">Favorite Movie</button>
+    <br>
+    <div class="container">
+        <div class="places">
+            <div class="place1 place">
+                <a href="https://en.wikipedia.org/wiki/Uttarakhand" target="_blank"><img src="https://media.istockphoto.com/id/484389570/photo/himalayas.jpg?s=612x612&w=0&k=20&c=6jM32XJBWlvv6x7AF-av52jlncPkz5hn_AEhjaDSFYI=" alt="" width="410px" height="250px"></a>
+                <p><b>Uttarakhand</b></p><br>
+                <p> is a state in northern India. It is often referred to as the "Devbhumi" (lit.'Land of the Gods')[22] due to its religious significance and numerous Hindu temples and pilgrimage centres found throughout the state. Uttarakhand is known for the natural environment of the Himalayas,</p>
+                </div>
+            <div class="place2 place"> <a href="https://en.wikipedia.org/wiki/Latvia" target="_blank"><img src="https://www.nationsonline.org/gallery/Latvia/View-of-Riga.jpg" alt="" width="410px" height="250px"></a>
+                <p><b>Latvia</b></p><br>
+                <p> Latvia, which was occupied and annexed by the U.S.S.R. in June 1940, declared its independence on August 21, 1991. The U.S.S.R. recognized its sovereignty on September 6, and United Nations membership followed shortly thereafter. Latvia was admitted to the North Atlantic Treaty Organization (NATO) and the European Union (EU) in 2004. The capital and chief city is Riga.
+                </p>
+            </div>
+            <div class="place3 place"> <a href="https://en.wikipedia.org/wiki/United_Kingdom" target="_blank"><img src="https://www.kayak.com/rimg/dimg/8a/d8/29dcb2f0-city-28501-189fedf72f2.jpg?crop=true&width=400&height=300" alt="" width="410px" height="250px"></a>
+                <p><b>United Kingdom</b></p><br>
+                <p> United Kingdom, island country located off the northwestern coast of mainland Europe. The United Kingdom comprises the whole of the island of Great Britain—which contains England, Wales, and Scotland—as well as the northern portion of the island of Ireland. The name Britain is sometimes used to refer to the United Kingdom as a whole. The capital is London, which is among the world's leading commercial, financial,
+                </p>
+            </div>
+        </div>
+        <div class="books">
+            <div class="book1 book">
+                <a href="https://en.wikipedia.org/wiki/A_Good_Girl%27s_Guide_to_Murder" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/I/91r3afbnQsL.jpg?w=144" alt="" width="410px" height="250px"></a>
+                <p><b>A good girls guide to murder</b></p><br>
+                <p>A Good Girl's Guide to Murder is a YA mystery novel following high schooler Pippa Fitz-Amobi. What first started as a school project, Pippa begins to dig into the murder of high schooler Andie Bell, a case that occurred five years ago, in her small town.
+                </p>
+            </div>
+            <div class="book2 book">
+                <a href="https://en.wikipedia.org/wiki/Dork_Diaries" target="_blank"><img src="https://m.media-amazon.com/images/I/611fZQ71rrL.jpg" alt="" width="410px" height="250px"></a>
+                <p><b>Dork Diaries</b></p><br>
+                <p>
+                    Dork Diaries follows eighth grader Nikki Maxwell as she chronicles through text and sketches her move to a snooty new school; her epic battle with her mom for an iPhone; her enthusiasm for drawing and art; and a love/hate fascination with the new school's queen bee, a girl named Mackenzie, who becomes Nikki's rival in ...
+                </p>
+            </div>
+            <div class="book3 book">
+                <a href="https://a-good-girls-guide-to-murder.fandom.com/wiki/Good_Girl,_Bad_Blood" target="_blank"><img src="https://d1ldy8a769gy68.cloudfront.net/180/978/198/489/640/7/9781984896407.jpg" alt="" width="410px" height="250px"></a>
+                <p><b>Good girl Bad blood</b></p><br>
+                <p>
+                    Pip Fitz-Amobi is not a detective anymore. With the help of Ravi Singh, she released a true-crime podcast about the murder case they solved together last year. The podcast has gone viral, yet Pip insists her investigating days are behind her. But she will have to break that promise when someone she knows goes missing.
+                </p>
+            </div>
+        </div>
+        <div class="movies">
+            <div class="mov1 mov">
+                <a href="https://en.wikipedia.org/wiki/The_Conjuring" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_.jpg" alt="" width="410px" height="250px"></a>
+                <p><b>The Conjuring</b></p><br>
+                <p>In 1970, paranormal investigators and demonologists Lorraine (Vera Farmiga) and Ed (Patrick Wilson) Warren are summoned to the home of Carolyn (Lili Taylor) and Roger (Ron Livingston) Perron. The Perrons and their five daughters have recently moved into a secluded farmhouse, where a supernatural presence has made itself known. Though the manifestations are relatively benign at first, events soon escalate in horrifying fashion, especially after the Warrens discover the house's macabre history.
+                </p>
+                </div>
+                <div class="mov2 mov">
+                    <a href="https://en.wikipedia.org/wiki/The_Conjuring_2" target="_blank"><img src="https://m.media-amazon.com/images/M/MV5BZjU5OWVlN2EtODNlYy00MjhhLWI0MDUtMTA3MmQ5MGMwYTZmXkEyXkFqcGdeQXVyNjE5MTM4MzY@._V1_.jpg" alt="" width="410px" height="250px"></a>
+                    <p><b>
+                        The Conjuring 2
+                        </b>
+                    </p>
+                    <p>In 1977, paranormal investigators Ed (Patrick Wilson) and Lorraine Warren come out of a self-imposed sabbatical to travel to Enfield, a borough in north London. There, they meet Peggy Hodgson, an overwhelmed single mother of four who tells the couple that something evil is in her home. Ed and Lorraine believe her story when the youngest daughter starts to show signs of demonic possession. As the Warrens try to help the besieged girl, they become the next targets of the malicious spirit.</p>
+                    </div>
+                    <div class="mov3 mov">
+                        <a href="https://en.wikipedia.org/wiki/The_Conjuring:_The_Devil_Made_Me_Do_It" target="_blank"><img src="https://i0.wp.com/bloody-disgusting.com/wp-content/uploads/2020/07/conjuring-3-1.jpg?resize=700%2C1039&ssl=1" alt="" width="410px" height="250px"></a>
+                    <p><b>
+                        The Conjuring 3
+                        </b>
+                    </p>
+                    <p>Paranormal investigators Ed and Lorraine Warren take on one of the most sensational cases of their careers after a cop stumbles upon a dazed and bloodied young man walking down the road. Accused of murder, the suspect claims demonic possession as his defense, forcing the Warrens into a supernatural inquiry unlike anything they've ever seen before.</p>
+                    </div>
+                    </div>
+        </div>
+    </div>
+<script>
+    function Showall(){
+        document.querySelector(".places").style.display="flex"
+        document.querySelector(".movies").style.display="flex"
+        document.querySelector(".books").style.display="flex"
+    }
+    function Favplace(){
+        document.querySelector(".places").style.display="flex" 
+        document.querySelector(".movies").style.display="none" 
+        document.querySelector(".books").style.display="none" 
+    }
+
+    function Favbook(){
+        document.querySelector(".books").style.display="flex"
+        document.querySelector(".places").style.display="none"
+        document.querySelector(".movies").style.display="none"
+    }
+    function Favmov(){
+        document.querySelector(".movies").style.display="flex"
+        document.querySelector(".places").style.display="none"
+        document.querySelector(".books").style.display="none" 
+    }
+
+</script>
+</body>
+</html>
